@@ -1,0 +1,29 @@
+/* start selector */
+*{
+border: 1px solid lightgrey;
+}
+
+/*descendant*/
+
+li a {
+  color:red;
+}
+
+/* adjacet */
+
+h4+ul{
+  border: 2px solid yellow;
+}
+
+/* Attribute */
+
+a[href="http://www.google.com"]{
+  background: pink;
+}
+
+/*nth type of */
+
+ul:nth-of-type(even)
+{
+  background:lightblue;
+}

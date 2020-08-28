@@ -1,0 +1,22 @@
+h1{
+  color:#0E6DC0;
+
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: red; */
+
+  border: 5px solid purple;
+}
+li{
+  color:rgba(194, 90, 20, 0.6);
+}
+h4{
+  color:rgba(0,0,0,.2);
+  background: rgb(255,140,78);
+}
+body{
+  background: pink;
+  /* background: url("Images/family1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover */
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration Page</h1>
+  <form>
+    <div>
+    <label for="firstName">FirstName:</label>
+    <input name="FirstName" id="firstName" type="text" required>
+<label for="lastName">LastName:</label>
+<input id="lastName" type="text" name="LastName" required>
+
+</div>
+<div>
+<label for="male">Male</label>
+<input id="male" type="radio" name="Gender" value="male">
+<label for="female">Female</label>
+<input id="female" type="radio" name="Gender" value="female">
+<label for="others">Others</label>
+<input id="others" type="radio" name="Gender" value="others">
+</div>
+<div>
+<label for="emaild">Email id:</label>
+<input id="emailid" name="emailid" type="email" placeholder="your email id" required>
+<label for="password">Password:</label>
+<!-- <input id="password" type="password" placeholder="your password" minlength="5" maxlength="10" required> -->
+<input id="password" name="password" type="password" placeholder="your password" pattern=".{5,10}" title="Please enter the password between 5 and 10 character">
+</div>
+<div>
+<label >Birthday:
+  <select name="Month">
+    <option>Month</option>
+    <option>Jan</option>
+    <option>Feb</option>
+    <option>March</option>
+    <option>April</option>
+    <option>May</option>
+  </select>
+  <select name="Day">
+    <option>Day</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+  </select>
+  <select name="Year">
+    <option>Year</option>
+    <option>1986</option>
+    <option>2010</option>
+    <option>2020</option>
+    <option>2000</option>
+    <option>1990</option>
+  </select>
+  </div>
+</label>
+
+<div>
+  <label for="agreed">I agree to the terms and conditions</label>
+  <input id="agreed" name="Terms" type="checkbox" >
+</div>
+
+<button>Submit</button>
+  </form>
+</body>
+</html>
